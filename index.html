@@ -55,65 +55,70 @@
   </head>
   <body>
     <div class="sidebar sidebar-dark sidebar-fixed sidebar-self-hiding-md" id="sidebar">
-      <ul class="sidebar-nav pt-5" data-coreui="navigation">
-        <li class="nav-item pt-3">
-          <a class="nav-link" href="#">
-            <!--<svg class="nav-icon">
-              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-speedometer"></use>
-            </svg> to svg dodać do każdego z listy jaky jednak icon byly zle -->
-            <i class="nav-icon cil-airplay"></i><span class="mx-3"> Pulpit</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="nav-icon cil-factory"></i><span class="mx-3"> Firmy</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="nav-icon cil-calendar"></i><span class="mx-3"> Kalendarz</span>
-          </a>
-        </li>
-        <li class="nav-divider"></li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="nav-icon cil-command"></i><span class="mx-3"> Produkty</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="nav-icon cil-folder"></i><span class="mx-3"> Makiety</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="cil-drop nav-icon"></i><span class="mx-3"> Skład</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="cil-diamond nav-icon"></i><span class="mx-3"> Branże</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="cil-phone nav-icon"></i><span class="mx-3"> Dzwoń</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="cil-airplane-mode nav-icon"></i><span class="mx-3"> Eksport</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="cil-locomotive nav-icon"></i><span class="mx-3"> Import</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="cil-envelope-closed nav-icon"></i><span class="mx-3"> Poczta</span>
-          </a>
+      <ul class="sidebar-nav pt-4" data-coreui="navigation">
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+            <i class="nav-icon cil-folder"></i><span class="mx-3"></span>Menu</a>
+          <ul class="nav-group-items">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">
+                <!--<svg class="nav-icon">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-speedometer"></use>
+                </svg> to svg dodać do każdego z listy jaky jednak icon byly zle -->
+                <i class="nav-icon cil-airplay"></i><span class="mx-3"> Pulpit</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="nav-icon cil-factory"></i><span class="mx-3"> Firmy</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="nav-icon cil-calendar"></i><span class="mx-3"> Kalendarz</span>
+              </a>
+            </li>
+            <li class="nav-divider"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="nav-icon cil-command"></i><span class="mx-3"> Produkty</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="nav-icon cil-folder"></i><span class="mx-3"> Makiety</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="cil-drop nav-icon"></i><span class="mx-3"> Skład</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="cil-diamond nav-icon"></i><span class="mx-3"> Branże</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="cil-phone nav-icon"></i><span class="mx-3"> Dzwoń</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="cil-airplane-mode nav-icon"></i><span class="mx-3"> Eksport</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="cil-locomotive nav-icon"></i><span class="mx-3"> Import</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="cil-envelope-closed nav-icon"></i><span class="mx-3"> Poczta</span>
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
       <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
@@ -131,10 +136,10 @@
           </ul>
           <ul class="header-nav ms-sm-auto">
             <li class="nav-item d-md-down-none">
-              <button type="button" class="btn btn-block btn-success text-white">Dodaj nową firmę </button>
+              <button type="button" class="btn  btn-success text-white">Dodaj nową firmę </button>
             </li>
             <li class="nav-item d-md-down-none">
-              <button type="button" class="btn btn-block btn-danger text-white">Wyloguj się </button>
+              <button type="button" class="btn  btn-danger text-white">Wyloguj się </button>
             </li>
           </ul>
 
@@ -142,7 +147,8 @@
       </header>
 
       <div class="pb-4">
-        <div class="nav-tabs-boxed nav-tabs-boxed-top-right">
+        <!--<div class="nav-tabs-boxed nav-tabs-boxed-top-right">-->
+        <div class="nav-tabs-boxed">
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" data-coreui-toggle="tab" href="#firm-name1" role="tab" aria-controls="firm-name1">
@@ -159,10 +165,11 @@
         <div class="tab-content">
           <div class="tab-pane active" id="firm-name1" role="tabpanel">
             <div class="headers-button-section p-2">
-              <button type="button" class="btn btn-block btn-info text-white mx-1 my-2">Eytuj firmę</button>
-              <button type="button" class="btn btn-block btn-info text-white mx-1 my-2">Dodaj nowy wpis</button>
-              <button type="button" class="btn btn-block btn-danger text-white mx-1 my-2">Zgłoś do usunięcia</button>
-              <button type="button" class="btn btn-block btn-info text-white mx-1 my-2">Połącz</button>
+              <!--Tak było wcześniej <button type="button" class="btn btn-block btn-info text-white mx-1 my-2">  -->
+              <button type="button" class="btn btn-info text-white mx-1 my-2">Eytuj firmę</button>
+              <button type="button" class="btn btn-info text-white mx-1 my-2">Dodaj nowy wpis</button>
+              <button type="button" class="btn btn-danger text-white mx-1 my-2">Zgłoś do usunięcia</button>
+              <button type="button" class="btn btn-info text-white mx-1 my-2">Połącz</button>
             </div>
             <div class="info-panel p-3 container">
               <div class="row">
@@ -276,9 +283,9 @@
                   <button class="btn btn-sm btn-info text-white my-2" type="button">Dodaj nowy produkt</button>
                 </div>
                 <div class="card-body table-responsive">
-                  <table class="table table-responsive table-relative table-striped">
-                    <thead class="sticky-top ">
-                      <tr class="table-sticky">
+                  <table class="table table-responsive position-relative table-striped">
+                    <thead class="sticky-top">
+                      <tr>
                         <th></th>
                         <th></th>
                         <th>Rata</th>
@@ -296,7 +303,7 @@
                       <tr>
                         <td colspan="10">produkt1, (#17 dodane w dniu przez)</td>
                         <td>
-                          <button class="btn btn-md btn-info btn-icon-show text-white fw-bold mx-1" type="button"><i class="cil-zoom"></i></button>
+                          <button class="btn btn-md btn-info text-white btn-icon-show text-white fw-bold mx-1" type="button"><i class="cil-zoom"></i></button>
                           <button class="btn btn-md btn-success btn-icon-edit text-white fw-bold mx-1" type="button"><i class="cil-pencil"></i></button>
                         </td>
                       </tr>
