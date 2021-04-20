@@ -14258,13 +14258,20 @@ html:not([dir=rtl]) .wrapper {
   z-index: 10;
 }
 
-.table-relative,.btn-icon-show {
+.table-relative {
   position: relative;
+}
+
+.btn-sm-icon {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  border-radius: 0.2rem;
 }
 
 .btn-icon-show {
   color: #ffffff;
   transition: all 0.5s;
+  position: relative;
 }
 
 .btn-icon-show::after {
@@ -14379,6 +14386,25 @@ html:not([dir=rtl]) .wrapper {
 .btn-icon-description:hover::after {
   opacity: 1;
   transition: all 0.5s;
+}
+
+.box {
+  background: transparent;
+  right: -800px;
+  top: 100px;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  width: 1000px;
+}
+
+.box:hover {
+  -webkit-transform: translateX(800px);
+  transform: translateX(800px);
+}
+
+.box .box__content {
+  background: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
